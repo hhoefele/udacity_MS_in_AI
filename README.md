@@ -6,7 +6,6 @@ Daily reflections on progress in the Udacity's AI, Datasci, Data Analytics Nanod
 
 ## Structure
 - Each file = one day’s learnings
-- Reflections captured in Notion
 
 ## Goals
 - Build fluency in AI tools and techniques
