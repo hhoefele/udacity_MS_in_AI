@@ -1,13 +1,13 @@
-# sql-challenge-2025
-Daily SQL practice and reflections
+# udacity_MS_in_AI
+Daily progress in Udacity's MS in AI program
 
-# 📘 SQL Challenge
-Daily SQL practice with reflections and GitHub tracking.
+# 📘 Nanodegree Progress
+Daily reflections on progress in the Udacity's AI, Datasci, Data Analytics Nanodegrees and GitHub tracking.
 
 ## Structure
-- Each file = one day’s challenge
-- Reflections captured in Notion, linked here
+- Each file = one day’s learnings
+- Reflections captured in Notion
 
 ## Goals
-- Build fluency in SQL queries
+- Build fluency in AI tools and techniques
 - Document progress visibly
