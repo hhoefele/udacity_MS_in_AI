@@ -1,0 +1,42 @@
+January 2, 2026
+
+Current Nanodegree:  AI Programming with Python
+
+Lessons Completed today: 
+	Course 2: Beginner Python PCEP Certification Preop
+	Lesson 3 Python Control Flow and Loops
+
+Reflection:
+	Nesting Conditional Statements
+	Range Functions with for and while loops
+	Nested Loops
+	Loop Control: Break / Continue
+
+Most Interesting Learning(s):  
+#1.	Looking up item in list, break when found
+
+fruits = ["apple", "banana", "cherry", "grapefruit"]
+search_item = "cherry"
+for fruit in fruits:
+	if fruit == search_item:
+		#print(fruit)
+		print(f"Found: {search_item}")
+		break
+
+#2. Getting combinations with nested loops
+
+for i in range(3):
+	for j in range(3):
+		if i ==	j:
+			continue
+		if i + j == 2:
+			break
+		print (f"i: {i}, j: {j}")
+
+print("-------")
+
+for i in range(3):
+    for j in range(2):
+        print(i,j)
+
+	
