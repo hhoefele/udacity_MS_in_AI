@@ -1,0 +1,79 @@
+January 3, 2026
+
+Current Nanodegree:  AI Programming with Python
+
+Lessons Completed today: 
+	Course 2: Beginner Python PCEP Certification Preop
+	Lesson 4 Python Data Collection Structures
+	Sections 4.2 - 4.14
+
+Reflection:
+* Working with Lists and Tuples;  type, index, append/remove, convert
+
+Best Learnings:  
+	
+# Create a list and a tuple
+cities_list = ["New York", "Los Angeles", "Chicago"]
+cities_tuple = ("New York", "Los Angeles", "Chicago")
+
+#print data collection type
+print("Cities List Type:", type(cities_list))
+print("Cities Tuple Type:", type(cities_tuple))
+
+----------------
+
+#create variables for first and last city
+first_city_list = cities_list[0]
+first_city_tuple = cities_tuple[0]
+
+#I did this:  
+last_city_list = cities_list[len(cities_list)-1]
+
+#Solution was this:
+last_city_list = cities_list[-1]
+last_city_tuple = cities_tuple[-1]
+
+
+----------------
+
+# Modify the first element in the list
+#I did this:
+del cities_list[0]
+cities_list.insert(0, "San Francisco")
+print(cities_list)
+
+#Solution was this:
+cities_list[0] = "San Francisco"
+
+
+# Add a new city to the list
+cities_list.append("New City")
+print(cities_list)
+
+# Remove a city from the list
+#I did  this
+del cities_list[len(cities_list)-1]
+print(cities_list)
+
+#Solution was this
+cities_list.remove("Chicago")
+
+
+----------------------
+
+# Step 1 - Convert tuple to list
+cities_tuple = ("New York", "Los Angeles", "Chicago")
+cities_list = list(cities_tuple)
+
+# Step 2 - Append new city to the new list and print the new list
+cities_list.append("New City")
+print (cities_list)
+
+# Step 3 - Convert the modified list back to a tuple and assign it to the original tuple variable
+cities_tuple = tuple(cities_list)
+
+# Step 4 - Print the contents of the newly updated original tuple
+print (cities_tuple)
+
+
+
