@@ -1,0 +1,58 @@
+January 8, 2026
+
+Current Nanodegree:  AI Programming with Python
+
+Lessons Completed today: 
+	Course 2: Beginner Python PCEP Certification Preop
+	Lesson 4 Python Data Collection Structures
+	Sections 4.15 - 5.1
+
+Reflection:
+* Working with Strings: Indexing, Slicing, Immutability, backslash escape character, multi-line strings, methods (lower, upper, replace, split)
+
+Learnings:  
+
+#Part 1: Constructing Strings
+# Create strings
+name = "Python Coder"
+greeting = "Hello, World!"
+# Print strings
+print(name, greeting)
+# Print types
+print(type(name), type(greeting))
+
+#Part 2: String Indexing and Slicing
+
+# Create string variable
+phrase = "Python is so cool"
+# Retrieve first character
+print(phrase[0])
+# Retrieve substring
+substring = phrase[13:17]
+# Print results
+print(substring[0])
+
+#3 Part 3: Changing Case with lower() and upper()
+# Create string variable
+sentence = "Python Programming is Fun"
+# Convert variable to lowercase
+sentence_lower = sentence.lower()
+# Convert variable to uppercase
+sentence_upper = sentence.upper()
+# Print results
+print (sentence_lower, sentence_upper)
+
+#4 Part 4: Replacing Text with replace()
+# Create original string
+original_text = "I love TypeScript"
+# Replace 'TypeScript' with 'Python'
+new_text = original_text.replace("TypeScript","Python")
+# Print updated text
+print (new_text)
+
+#Part 5: Splitting Strings with `split()`
+
+text_data = "Python is an amazing language"
+# Split `text_data` by spaces and store the result in `words`
+words = text_data.split(" ")
+print(words)
