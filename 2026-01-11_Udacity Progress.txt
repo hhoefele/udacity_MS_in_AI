@@ -1,0 +1,89 @@
+January 11, 2026
+
+Current Nanodegree:  AI Programming with Python
+
+Lessons Completed today: 
+	Course 2: Beginner Python PCEP Certification Preop
+	Lesson 4 Python Data Collection Structures
+	Sections 5.2 - 5.5
+
+Reflection:
+* Creating and Calling a Function, looping through variables, setting function parameter defaults, Function with Parameters and Return Values
+
+Learnings:  
+
+1. Creating and Calling a Function
+
+def greet(name="Default Name", time="morning"):
+    return f"Good {time}, {name}!"
+
+# Calling the function with both parameters
+print(greet("Alice", "afternoon"))  # Output: Good afternoon, Alice!
+
+# Calling the function with only the name parameter
+print(greet("Bob"))  # Output: Good morning, Bob!
+
+# Calling the function with only the time parameter
+print(greet(time="evening"))  # Output: Good evening, Default Name!
+
+# Calling the function with no parameters
+print(greet())  # Output: Good morning, Default Name!
+
+
+print("---------")
+
+
+def example_function():
+    print("This is the first print statement.")
+    print("This is the second print statement.")
+    return "This is the return value."
+
+result = example_function()
+print(result)  # This will print the return value.
+
+
+print("---------")
+
+# Step 1: Define the function (setting defaults for both)
+def greet(name="friend", time_of_day="day"):
+    print (f"Good {time_of_day}, Hello, {name}!")
+    return f"Good {time_of_day}, Hello, {name}!"
+
+# Step 2: Add variables for names and times
+name = "Alice"
+time_of_day = "Morning"
+names = ["Alice", "Bob", "Charlie"]
+times = ["morning", "afternoon", "evening"]
+
+# Calling the function with parameters and setting defaults
+greet("Morning","Alice")
+greet(time_of_day="morning")
+
+print("--------")
+
+/# Step 3: Loop through names and times & print the function "output"
+
+for name in names:
+    for time in times:
+        print(f"Good {time} , {name}")
+    
+greet()
+
+
+
+2. Function with Parameters and Return Values
+# Create a function that takes two parameters
+# to calculate the are of a rectangle and returns the result
+# add optional parameter for default units
+def calculate_area(length, width, unit="square meters"):
+    area = length * width
+    return area, unit
+
+#calculate and store the result in variable
+area, unit = calculate_area(5, 10)
+
+#print result using f string
+print(f"The area of the rectangle is {area} {unit}.")
+
+
+
